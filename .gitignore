@@ -1,0 +1,33 @@
+# Python
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.venv/
+venv/
+
+# Local configuration and secrets
+.env
+.env.*
+*.key
+*.pem
+
+# Models and generated assets
+models/
+*.pt
+*.onnx
+*.tflite
+*.h5
+
+# macOS and editors
+.DS_Store
+.vscode/
+
+# Xcode
+DerivedData/
+build/
+xcuserdata/
+*.xcuserstate
+
+# Local logs and recordings
+*.log
+recordings/
