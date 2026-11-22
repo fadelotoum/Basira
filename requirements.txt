@@ -1,0 +1,17 @@
+numpy<2.5
+opencv-python
+ultralytics
+transformers
+pillow
+
+# Local user interface
+streamlit
+
+# iPhone ↔ Mac local-network bridge
+fastapi
+uvicorn[standard]
+websockets
+zeroconf
+
+# Quality checks
+pytest
